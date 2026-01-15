@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaBank</title>
+    <link rel="stylesheet" href="bank.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="navigation-bar">
+        <img src="images/bank.png" alt="NovaBank Logo">
+
+        <nav id="navigation">
+            <a href="#">Personal</a>
+            <a href="#">Business</a>
+            <a href="#">Wealth</a>
+            <a href="#">Contact Us</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <button id="b1">Open Account</button>
+            <button id="b2"><img src="images/padlock2.png" alt="">  Log In</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="tagline">
+            <p class="t1">Secure. Simple.</p>
+            <p class="t2">Smart Banking.</p>
+            <p class="t3">Manage your finances with confidence from anywhere in the world using our award-winning digital platform.</p>
+
+            <div class="main-buttons">
+                <button class="open-account">Open an Account</button>
+                <button class="view-rates">View Rates</button>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-header">
+                    <h3>Welcome Back</h3><img src="images/padlock1.png" alt="">
+                </div>
+                <hr>
+
+                <label for="userid">User ID</label>
+                <div class="input-container">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" name="userid" id="userid" placeholder="Enter your ID" >
+                </div>
+
+                <label for="password">Password</label>
+                <div class="input-container">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" name="password" id="password" placeholder="••••••••">
+                </div>
+                
+
+                <div class="form-options">
+                    <label>
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#">Forgot info?</a>
+                </div>
+
+                <input type="submit" value="Log In">
+
+                <p class="register">
+                    New to NovaBank? <a href="#">Register now</a>
+                </p>
+            </form>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="feature-box">
+            <a href="#" class="feature-icon"><i class="fa-solid fa-location-dot" style="color: #2563eb;"></i></a>
+            <p>Find ATM/Branch</p>
+        </div>
+
+        <div class="feature-box">
+            <a href="#" class="feature-icon"><i class="fa-solid fa-money-bills" style="color: #2563eb;"></i></a>
+            <p>Transfer Funds</p>
+        </div>
+
+        <div class="feature-box">
+            <a href="#" class="feature-icon"><i class="fa-solid fa-credit-card" style="color: #2563eb;"></i></a>
+            <p>Apply for Card</p>
+        </div>
+
+        <div class="feature-box">
+            <a href="#" class="feature-icon"><i class="fa-solid fa-headset" style="color: #2563eb;"></i></a>
+            <p>24/7 Support</p>
+        </div>
+    </div>
+
+</body>
+</html>
