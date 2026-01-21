@@ -36,7 +36,7 @@
         </div>
 
         <div class="form-container">
-            <form action="#" method="post">
+            <form id="loginform">
                 <div class="form-header">
                     <h3>Welcome Back</h3><img src="images/padlock1.png" alt="">
                 </div>
@@ -47,13 +47,14 @@
                     <i class="fa-regular fa-user"></i>
                     <input type="text" name="userid" id="userid" placeholder="Enter your ID" >
                 </div>
+                <small id="userError"></small>
 
                 <label for="password">Password</label>
                 <div class="input-container">
                     <i class="fa-solid fa-key"></i>
                     <input type="password" name="password" id="password" placeholder="••••••••">
                 </div>
-                
+                <small id="passError"></small>
 
                 <div class="form-options">
                     <label>
@@ -92,6 +93,6 @@
             <p>24/7 Support</p>
         </div>
     </div>
-
+    <script src="bank.js"></script>
 </body>
 </html>

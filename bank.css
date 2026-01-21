@@ -231,3 +231,10 @@ input[type="submit"]:hover {
     margin-top: 15px;
     color: #e5e7eb;
 }
+
+small{
+    display: block;
+    margin-top: -20px;
+    font-size: 12px;
+    color: red;
+}
