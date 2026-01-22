@@ -47,14 +47,19 @@
                     <i class="fa-regular fa-user"></i>
                     <input type="text" name="userid" id="userid" placeholder="Enter your ID" >
                 </div>
-                <small id="userError"></small>
+                <small id="userError" class="error-msg"></small>
 
                 <label for="password">Password</label>
                 <div class="input-container">
                     <i class="fa-solid fa-key"></i>
                     <input type="password" name="password" id="password" placeholder="••••••••">
                 </div>
-                <small id="passError"></small>
+                <small id="passError" class="error-msg"></small>
+                <div class="strength-wrapper">
+                    <div class="strength-bar" id="strengthBar"></div>
+                    <small id="strengthText"></small>
+                </div>
+
 
                 <div class="form-options">
                     <label>
@@ -63,7 +68,7 @@
                     <a href="#">Forgot info?</a>
                 </div>
 
-                <input type="submit" value="Log In">
+                <input type="submit" id="loginBtn" value="Log In" disabled>
 
                 <p class="register">
                     New to NovaBank? <a href="#">Register now</a>
