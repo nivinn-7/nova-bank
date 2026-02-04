@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | NovaBank</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <div class="navigation-bar">
+        <img src="images/bank.png" alt="NovaBank Logo">
+
+        <nav id="navigation">
+            <a href="#">Accounts</a>
+            <a href="#">Payments</a>
+            <a href="#">Cards</a>
+            <a href="#">Support</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <button id="themeToggle">🌙</button>
+            <button onclick="window.location.href='index.html'">Logout</button>
+        </div>
+    </div>
+
+    <div class="dashboard-header">
+        <p id="greeting" class="greeting"></p>
+        <div class="center-header">
+            <p class="t2">Account Dashboard</p>
+            <p class="t3">Here’s a quick overview of your banking details.</p>
+        </div>
+    </div>
+
+    <div class="account-form-wrapper">
+        <div class="form-container">
+            <h3>Total Balance</h3>
+            <p class="balance-amount" id="balance">₹ 0</p>
+            <p class="sub-text">Savings Account</p>
+        </div>
+
+                <div class="form-container">
+            <h3>Last Transaction</h3>
+            <p>Amazon Purchase</p>
+            <p class="negative">- ₹ 1,200</p>
+            <p class="sub-text">Today</p>
+        </div>
+
+        <div class="form-container">
+            <h3>Rewards Points</h3>
+            <p class="points">1,540 Points</p>
+            <p class="sub-text">Redeem anytime</p>
+        </div>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

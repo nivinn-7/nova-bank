@@ -45,6 +45,8 @@ pass.addEventListener("input", function () {
     check();
 });
 
+
+
 function check() {
     if (user.value.trim().length >= 4 && pass.value.trim().length >= 6) {
         btn.disabled = false;
@@ -55,7 +57,7 @@ function check() {
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Login successful");
+    window.location.href="dashboard.html";
 });
 
 check();

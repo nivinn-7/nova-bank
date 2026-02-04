@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Account | NovaBank</title>
+    <link rel="stylesheet" href="bank.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="navigation-bar">
+        <img src="images/bank.png" alt="NovaBank Logo">
+        <nav id="navigation">
+            <a href="bank.html">Home</a>
+            <a href="#">Accounts</a>
+            <a href="#">Support</a>
+        </nav>
+        <div class="nav-buttons">
+            <button id="b1" onclick="window.location.href='index.html'">Back</button>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <p class="t1">Open Your</p>
+        <p class="t2">NovaBank Account</p>
+        <p class="t3">Start your digital banking journey in minutes.</p>
+    </div>
+
+    <div class="account-form-wrapper">
+        <div class="form-container account-form">
+            <h3>Create New Account</h3>
+            <hr>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email Address</label>
+            <input type="text" placeholder="Enter your email">
+
+            <label>Mobile Number</label>
+            <input type="text" placeholder="Enter mobile number">
+
+            <label>Account Type</label>
+            <select class="select-box">
+                <option>Savings Account</option>
+                <option>Current Account</option>
+                <option>Student Account</option>
+            </select>
+
+            <label>Create Password</label>
+            <input type="password" placeholder="Create password">
+
+            <input type="submit" value="Submit Application" class="submit-btn">
+        </div>
+    </div>
+</body>
+</html>

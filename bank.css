@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #f5f8fc;
@@ -278,4 +282,35 @@ input[type="submit"]:disabled {
 .strong {
     width: 100%;
     background-color: #16a34a;
+}
+
+.page-header {
+    text-align: center;
+    padding: 60px 20px 30px;
+    background: #f5f8fc;
+}
+
+.account-form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    background: #f5f8fc;
+}
+
+.account-form {
+    width: 420px;
+}
+
+.select-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    margin-top: 20px;
 }
