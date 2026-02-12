@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #111827;
+}
+
+/* NAVBAR */
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 6%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navigation-bar img {
+    height: 32px;
+}
+
+#navigation {
+    display: flex;
+    gap: 28px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nav-buttons button {
+    background: #e5e7eb;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.page-header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.t1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.t2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2563eb;
+    line-height: 1.2;
+}
+
+.t3 {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* FORM WRAPPER */
+
+.account-form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+/* FORM */
+
+.account-form {
+    width: 100%;
+    max-width: 380px;
+    background: #ffffff;
+    padding: 24px 26px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.account-form h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.account-form hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 18px;
+}
+
+.account-form label {
+    font-size: 12px;
+    color: #374151;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.account-form input,
+.select-box {
+    width: 100%;
+    padding: 9px 10px;
+    margin-bottom: 14px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    font-size: 13px;
+}
+
+.account-form input:focus,
+.select-box:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.select-box {
+    appearance: none;
+}
+
+/* BUTTON */
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #1d4ed8;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .navigation-bar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px 20px;
+    }
+
+    #navigation {
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .page-header {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .account-form {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    .nav-buttons {
+        width: 100%;
+    }
+
+    .nav-buttons button {
+        width: 100%;
+    }
+}

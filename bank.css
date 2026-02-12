@@ -314,3 +314,123 @@ input[type="submit"]:disabled {
 .submit-btn {
     margin-top: 20px;
 }
+
+.main {
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    max-width: 360px;
+    width: 100%;
+}
+
+.account-form {
+    max-width: 420px;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+
+    .navigation-bar {
+        padding: 18px 40px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 40px;
+    }
+
+    .tagline {
+        max-width: 100%;
+    }
+
+    .form-container {
+        margin-top: 30px;
+    }
+
+    .main-buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navigation-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    #navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-buttons button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main {
+        padding: 50px 20px;
+    }
+
+    .t1,
+    .t2 {
+        font-size: clamp(28px, 6vw, 40px);
+        text-align: center;
+    }
+
+    .t3 {
+        font-size: 16px;
+    }
+
+    .main-buttons {
+        flex-direction: column;
+    }
+
+    .open-account,
+    .view-rates {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .account-form {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature-box {
+        padding: 20px 0;
+    }
+}
